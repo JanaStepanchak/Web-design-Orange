@@ -1,3 +1,7 @@
+ @font-face {
+     font-family:Fangtasia;
+     src: url("fonts/Fangtasia.ttf") ; }
+
 body{
 	background-image: url("img/bg.png");
 }
@@ -238,12 +242,14 @@ position: relative;}
 .Orange {font-size: 41.317px;
   font-family: "Fangtasia";
   color: rgb(255, 255, 255);
-  line-height: 0.653;
+/*  line-height: 0.653;*/
   text-align: left;
   text-shadow: 0.156px 0.988px 3px rgba(97, 66, 0, 0.46);
   -moz-transform: matrix( 1.95240354946462,0,0,1.95240354946462,0,0);
   -webkit-transform: matrix( 1.95240354946462,0,0,1.95240354946462,0,0);
   -ms-transform: matrix( 1.95240354946462,0,0,1.95240354946462,0,0);}
+
+
 
 
 .nav{font-size: 13px;
